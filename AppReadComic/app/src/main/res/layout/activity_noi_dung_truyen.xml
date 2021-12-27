@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NoiDungTruyenActivity"
+    android:orientation="vertical"
+    android:background="@color/white"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textViewTenchuong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Chương 1"
+            android:textSize="@dimen/_26sdp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chỉnh sửa"
+        android:id="@+id/buttonEditChuong"
+        android:visibility="invisible"
+        android:layout_gravity="center"/>
+        <TextView
+            android:id="@+id/textViewnoidungchuong"
+            android:layout_width="@dimen/_280sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_50sdp"
+            android:fontFamily="@font/brawler"
+            android:gravity="left"
+
+            android:inputType="textMultiLine"
+            android:text="Tình yêu giống như lần đầu được nếm thử quả khế mới chín,
+Chua chua chát chát, nhưng không kìm được, vẫn muốn nếm thêm lần nữa.
+Trong quả khế chát xanh xanh nụ cười ngốc nghếch, ngọt ngào của anh, tình đầu thơ ngây, trong sáng của em lặng lẽ nảy mầm.
+Tôi tên là Thẩm Thiên Tình \n
+Nếu nói đến cuộc đời tôi, chỉ e khó lòng kể hết trong một chốc một lát, sợ mọi người đọc sẽ thấy nặng đầu buồn ngủ, vậy nên tôi sẽ chỉ chọn vài trọng điểm để nói.\n
+Cái gọi là “cuộc đời tôi” thật ra cũng chẳng dài, tính đến nay mới có mười bốn năm, ba trăm hai mươi bảy ngày, tám giờ, năm giây mà thôi.\n
+Đầu tiên, cũng giống như tất cả mọi người, tôi có cha mẹ rất hiền từ, lại có một người anh vô cùng đẹp trai, ưu tú, khiến các nữ sinh nhìn thấy đều không kìm được mà hét lên ngưỡng mộ.\n
+Về phần tôi, từ nhỏ đến lớn, nhận xét của các giáo viên nhìn chung đều quanh đi quẩn lại những từ như: cá tính, bốc đồng, bướng bỉnh, khó bảo, thích quản chuyện người khác, vân vân và vân vân… Giáo viên nào tốt một chút sẽ nói tôi hoạt bát, hướng ngoại, giữa đường gặp chuyện bất bình chẳng tha.\n
+Nhưng thế thì có gì khác chứ? Chẳng qua chỉ đổi cách nói cho dễ nghe hơn thôi, vẫn khiến tôi bị tổn thương.\n
+Cái gì? Bạn không tin ư?! Để tôi giải thích cho mà nghe nhé!\n
+Hoạt bát, hướng ngoại: nghĩa là tôi rất nghịch, nghịch vô cùng, nghịch đến mức bị phạt đánh.\n
+Giữa đường gặp chuyện bất bình chẳng tha: nói cách khác, chính là gây chuyện thị phi, nghịch ngợm, phá phách.\n
+Tôi hận nhất là năm lớp năm, cô giáo chủ nhiệm còn ghi trong sổ liên lạc của tôi là: ngu muội dốt nát, thiếu tôn trọng bậc bề trên, hung hăng càn quấy, không biết hối cải, mong phụ huynh quản lý nghiêm ngặt hơn, tránh gây hại cho nếp sống đẹp của xã hội.\n
+Vậy là cô ấy đã trang trọng biến tôi thành con quỷ phá hoại thế giới, làm băng hoại nếp sống xã hội, sự khởi sắc hay tụt dốc của nền kinh tế cũng liên quan đến tôi, hơn nữa, ngay cả việc Khổng Minh tiên sinh “xuất sư vị tiệp thân tiên tử[1]”, sự thành bại, thịnh suy của Trung Quốc trong năm nghìn năm qua cũng đều là lỗi của tôi, chỉ thiếu nước bắt tôi mổ bụng tự sát để tạ tội với thế giới.\n
+[1] Trong bài thơ Thục tướng của Đỗ Phủ viết về Gia Cát Lượng có câu: “Xuất sư vị tiệp thân tiên tử. Trường sử anh hùng lệ mãn khâm”, tạm dịch: Ra quân chưa kịp chiến thắng thân đã khuất, khiến người đời sau cũng phải chạnh lòng, nước mắt đẫm đầy vạt áo. Có nghĩa là chưa kịp thành công thì người đã chết.\n
+Tôi chẳng qua chỉ đặt biệt danh “Diệt Tuyệt sư thái[2]” sau lưng cô giáo quá lứa lỡ thì đó, ngoài ra còn cá cược với bạn bè trong lớp về màu sắc nội y của cô, mọi người thử nói xem, như thế có được coi là phạm tội chết ngàn lần không?\n
+[2] Nhân vật hư cấu trong tác phẩm Ỷ thiên đồ long ký của nhà văn Kim Dung, là chưởng môn nhân đời thứ ba của phái Nga Mi, nổi tiếng là người cứng nhắc, giáo điều, định kiến nặng nề.\n
+Mẹ phạt tôi quỳ cũng chẳng sao; muốn tôi ngày mai xin lỗi Diệt Tuyệt… à, cô giáo Ngô thì tôi cũng đồng ý; viết bản kiểm điểm bày tỏ sự ăn năn, hối hận lại càng là chuyện nhỏ, đảm bảo sẽ rất chân thành và đặc sắc gần bằng “Thư ly biệt vợ”; nhưng… điều tôi không thể chấp nhận nhất là mẹ lại không cho phép tôi ăn tối, đã thế còn cố ý nấu món thịt kho tàu “đầu sư tử”[3] mà tôi thích nhất nữa chứ!\n
+[3] Thịt viên lớn, có kích thước khoảng 5 – 10 cm.\n
+Đây đúng là hình phạt vô nhân đạo nhất trên đời này!\n
+Có điều, vẫn còn may, anh trai luôn bảo vệ tôi bất cứ lúc nào.\n
+Hồi nhỏ, nhiều lần bị phạt, tôi thường hờn tủi hỏi mẹ: “Mẹ ơi, con không phải do mẹ sinh ra đúng không?”\n
+“Đúng rồi đấy! Con được móc lên từ cống rãnh hôi thối.” Thật quá đáng! Sao mẹ trả lời dứt khoát như vậy? Lại còn làm vẻ mặt “Cả đời con, lúc này là thông minh nhất đấy!” nữa chứ.\n
+Trái ngược với tôi, anh trai là người tài đức vẹn toàn, rất đáng ngưỡng mộ. Mà quả thật tôi cũng sùng bái anh vô cùng.\n
+Khi ấy, điều kiện kinh tế nhà tôi không tốt lắm, gia đình làm nghề nông, cha mẹ hằng ngày đầu tắt mặt tối, không thể chăm sóc tôi chu đáo, tôi chẳng khác nào do một tay anh trai nuôi lớn. Đối với tôi, anh trai không chỉ là anh trai mà còn là người hiểu tôi nhất trên thế gian này. Không giống những người khác luôn phê phán, chỉ trích tôi, anh đối xử với tôi hoàn toàn khác, bao dung mọi hành vi của tôi. Mỗi lần tôi gây chuyện, giữa vô vàn cặp mắt chau lại nhìn tôi, luôn có một khuôn mặt mỉm cười, ánh mắt tràn đầy sự bao dung, thấu hiểu, âm thầm ủng hộ tôi.\n
+Ngay từ khi còn rất bé, tôi đã biết anh trai là người vô cùng quan trọng với tôi. Anh vừa là thần hộ mệnh vừa là nơi tránh nạn của tôi, mỗi lần xảy ra chuyện gì, người đầu tiên chạy đến bên tôi bao giờ cũng là anh; mỗi khi gây họa, tôi cũng tìm đến anh trước nhất. Từ rất lâu rồi, tôi đã nhận thức được rằng mình có thể mất đi tất cả nhưng không thể không có anh trai.\n
+Có lần, cực kỳ buồn chán vì không có việc gì làm, tôi ngồi xổm một bên xem đám bạn hàng xóm chơi trò “cô dâu, chú rể”, sau khi về nhà thì luôn miệng kêu gào đòi được gả cho anh trai. Trong những năm tháng trẻ thơ vô tri, hồ đồ đó, tôi cũng không hiểu từ “gả” có nghĩa là gì, nhưng Đại Mao – anh bạn hàng xóm hơn tôi hai tuổi đã nói với tôi mội cách rất người lớn rằng, “gả” có nghĩa là sống bên người mình thích nhất, mãi mãi không lìa xa.\n
+Người mà mình thích nhất? Đó chẳng phải là anh trai ư?\n
+Cho nên tôi mới hỏi anh trai có muốn được “gả” cho tôi không.\n
+Anh trai nói không được.\n
+“Tại sao?”\n
+“Bởi vì anh là con trai, không thể “gả” cho em được.”\n
+“Vậy, gả em cho anh là được chứ gì.”\n
+“Vẫn không được.”\n
+“Tại sao?” Lần đầu tiên tôi cảm thấy anh trai thật lắm chuyện, bèn ra sức trừng mắt với anh.\n
+
+Anh đột nhiên không nói gì, ôm chặt tôi vào lòng.\n\n
+
+Rất lâu, rất lâu sau đó, tôi mới hiểu được cái ôm đó chính là sự đau lòng.\n\n
+
+Dần dần hiểu chuyện, rốt cuộc tôi đã biết cô nhi thực chất là thế nào, cũng hiểu được sự thương xót trong cái ôm đó, song tôi cũng chẳng có cảm giác gì nhiều, vì chưa kịp buồn phiền thì đã có quá nhiều cảm giác len lỏi trong trái tim rồi, đầy đến nỗi không còn chỗ để chứa cái khác.\n\n
+
+Rốt cuộc có đúng là được móc lên từ cống rãnh hôi thối hay không, tôi chẳng muốn chứng minh, bởi vì cho dù không có thứ gì, tôi vẫn có một người thực sự yêu thương tôi hết mực, không bao giờ cô đơn.\n\n
+
+Anh trai, thật sự không chỉ là anh trai.\n\n
+
+Vậy thì là cái gì? Tôi vẫn chưa có đáp án, nhưng trước ngày hôm đó, tôi đã vô thức giấu hết số thư tình mà những người ngưỡng mộ nhờ tôi gửi cho anh trai.\n
+
+Năm lớp bốn, cô bạn thân nhất của tôi khen anh đẹp trai, toàn mượn cớ đến nhà tôi chơi, thế là trước khi kết thúc học kỳ đó, tôi đã cắt đứt quan hệ với nó, chính thức tuyệt giao, đồng thời hiểu ra một đạo lý ngàn năm không đổi, đó là: tình bạn giữa nữ giới tương đối mong manh.\n
+
+Năm lớp bảy, hoa khôi lớp tôi theo đuổi anh trai, tôi yêu cầu anh không được đến trường đón tôi nữa, tôi sẽ tự về nhà. Anh cử tưởng tôi không thích dựa dẫm vào anh vì muốn làm ra vẻ “người nhớn”.\n
+
+Đùa chứ! Sao tôi có thể để anh trai khôi ngô, tuấn tú của mình hằng ngày bị một bầy con gái si tình dùng ánh mắt cưỡng bức được?\n
+
+Anh trai là của tôi, của riêng mình tôi thôi!\n
+
+Ham muốn chiếm hữu anh trai của tôi khá cao, điều này tôi chưa từng phủ nhận.\n
+
+Dần dần tôi bắt đầu hiểu ra, đằng sau ham muốn chiếm hữu mãnh liệt này là gì. Đó chính là tình cảm của một thiếu nữ mười bốn tuổi…\n
+"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_15sdp" />
+
+    </LinearLayout>
+
+</ScrollView>

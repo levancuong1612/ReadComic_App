@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Hocandroid/AppReadComic/app/src/main/res/drawable-v24/white_background.xml" value="0.26296296296296295" />
+        <entry key="..\:/Hocandroid/AppReadComic/app/src/main/res/drawable/back_ground_button.xml" value="0.2518518518518518" />
+        <entry key="..\:/Hocandroid/AppReadComic/app/src/main/res/layout/activity_dang_chuong_truyen.xml" value="0.264" />
+        <entry key="..\:/Hocandroid/AppReadComic/app/src/main/res/layout/activity_dang_nhap.xml" value="0.264" />
+        <entry key="..\:/Hocandroid/AppReadComic/app/src/main/res/layout/activity_dang_truyen.xml" value="0.264" />
+        <entry key="..\:/Hocandroid/AppReadComic/app/src/main/res/layout/activity_list_chuong.xml" value="0.2" />
+        <entry key="..\:/Hocandroid/AppReadComic/app/src/main/res/layout/activity_list_truyen.xml" value="0.176" />
+        <entry key="..\:/Hocandroid/AppReadComic/app/src/main/res/layout/activity_main.xml" value="0.152" />
+        <entry key="..\:/Hocandroid/AppReadComic/app/src/main/res/layout/activity_noi_dung_truyen.xml" value="0.264" />
+        <entry key="..\:/Hocandroid/AppReadComic/app/src/main/res/layout/activity_thong_tin_truyen.xml" value="0.264" />
+        <entry key="..\:/Hocandroid/AppReadComic/app/src/main/res/layout/fragment_home.xml" value="0.12360688956433637" />
+        <entry key="..\:/Hocandroid/AppReadComic/app/src/main/res/layout/fragment_search.xml" value="0.264" />
+        <entry key="..\:/Hocandroid/AppReadComic/app/src/main/res/layout/fragment_write.xml" value="0.264" />
+        <entry key="..\:/Hocandroid/AppReadComic/app/src/main/res/layout/item_chuong.xml" value="0.264" />
+        <entry key="..\:/Hocandroid/AppReadComic/app/src/main/res/layout/item_layout_chuong.xml" value="0.264" />
+        <entry key="..\:/Hocandroid/AppReadComic/app/src/main/res/layout/item_layout_truyen.xml" value="0.264" />
+        <entry key="..\:/Hocandroid/AppReadComic/app/src/main/res/layout/layout_table_image.xml" value="0.176" />
+        <entry key="..\:/Hocandroid/AppReadComic/app/src/main/res/menu/menu_bottom_nav.xml" value="0.25025641025641027" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

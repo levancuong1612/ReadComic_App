@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DangTruyenActivity"
+    tools:ignore="SpeakableTextPresentCheck"
+    android:background="#323030"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thêm Truyện  Mới"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:layout_margin="@dimen/_10sdp"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_130sdp"
+            android:layout_margin="@dimen/_10sdp"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:id="@+id/imageViewPostBia"
+                android:layout_width="@dimen/_70sdp"
+                android:layout_height="140dp"
+                android:layout_margin="@dimen/_10sdp"
+                android:src="@drawable/ic_baseline_add_24"
+               android:background="@color/black"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Thêm ảnh bìa"
+                android:layout_gravity="center_vertical"
+                android:textSize="20dp"
+                android:textColor="#C6B1B1"/>
+
+        </LinearLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:textColorHint="#A19D9D">
+
+            <com.google.android.material.textfield.TextInputEditText
+               android:id="@+id/inputTieudetruyen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Tiêu đề truyện"
+                android:background="#323030"
+                android:textColorHint="#A19D9D"
+
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:textColorHint="#A19D9D">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/inputTacGiatruyen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Tác giả"
+                android:background="#323030"
+                android:textColorHint="#A19D9D"
+
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:textColorHint="#A19D9D">
+
+            <com.google.android.material.textfield.TextInputEditText
+               android:id="@+id/inputKettruyen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Kết truyện"
+                android:background="#323030"
+                android:textColorHint="#A19D9D"
+
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:textColorHint="#A19D9D">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/inputSochuong"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Số chương"
+                android:background="#323030"
+                android:textColorHint="#A19D9D"
+
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:textColorHint="#A19D9D">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/inputLoaiTruyen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Loại truyện"
+                android:background="#323030"
+                android:textColorHint="#A19D9D"
+
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:textColorHint="#A19D9D">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/inputMota"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Mô tả"
+                android:background="#323030"
+                android:textColorHint="#A19D9D"
+                android:inputType="textMultiLine"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+        <Button
+
+
+            android:layout_width="@dimen/_150sdp"
+            android:id="@+id/buttonThemTruyenMoi"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:background="@drawable/back_ground_button"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:text="Thêm mới"
+            />
+
+    </LinearLayout>
+</ScrollView>

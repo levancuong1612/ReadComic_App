@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DangChuongTruyenActivity"
+    android:background="#323030"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thêm Chương Mới"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:layout_margin="@dimen/_10sdp"
+            />
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:textColorHint="#A19D9D">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/inputTenChuong"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Tên Chương"
+                android:background="#323030"
+                android:textColorHint="#A19D9D"
+
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:textColorHint="#A19D9D">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/inputNoiDung"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nội Dung"
+                android:background="#323030"
+                android:textColorHint="#A19D9D"
+                android:inputType="textMultiLine"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+        <Button
+
+
+            android:layout_width="@dimen/_150sdp"
+            android:id="@+id/buttonThemChuongMoi"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:background="@drawable/back_ground_button"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:text="Thêm mới"
+            />
+
+
+    </LinearLayout>
+</ScrollView>

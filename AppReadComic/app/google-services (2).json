@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "245047456914",
+    "project_id": "readcomic-35f49",
+    "storage_bucket": "readcomic-35f49.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:245047456914:android:add919b73ed13312bfe24b",
+        "android_client_info": {
+          "package_name": "com.example.appreadcomic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "245047456914-tva3hfa6dt3lbv3i4phnki072mrtpjgu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFUOvPyW8MIsEzVD8Qi7BO6ySQmz31iS0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "245047456914-tva3hfa6dt3lbv3i4phnki072mrtpjgu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

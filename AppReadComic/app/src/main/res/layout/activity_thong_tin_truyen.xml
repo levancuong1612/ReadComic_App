@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#272626"
+    tools:context=".ThongTinTruyenActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/imageViewBiaTruyen"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_250sdp"
+            android:src="@drawable/diadiem5"
+            android:scaleType="centerCrop"
+            android:background="#FFFFFF"
+            android:alpha="0.2"
+            />
+        <ImageView
+            android:id="@+id/imageViewAvtTruyen"
+            android:layout_width="@dimen/_180sdp"
+            android:layout_gravity="center"
+            android:layout_marginTop="-200dp"
+            android:layout_height="@dimen/_210sdp"
+            android:src="@drawable/diadiem5"
+            android:scaleType="centerCrop"
+
+            />
+        <TextView
+            android:id="@+id/textviewTenTruyen"
+            android:layout_marginTop="@dimen/_18sdp"
+            android:textStyle="bold"
+            android:textSize="@dimen/_20sdp"
+
+            android:layout_width="@dimen/_270sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Giấy Ngắn tình dài"
+            android:textColor="@color/white"
+            />
+        <TextView
+
+            android:id="@+id/textviewTenTacgia"
+            android:textStyle="bold"
+            android:textSize="@dimen/_15sdp"
+            android:layout_width="@dimen/_270sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Sqing Write"
+            android:textColor="@color/white"
+            />
+        <TextView
+
+            android:id="@+id/textviewSoChuong"
+            android:textStyle="bold"
+            android:textSize="@dimen/_15sdp"
+            android:layout_width="@dimen/_270sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="6 Chương"
+            android:textColor="@color/white"
+            />
+
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="@dimen/_20sdp"
+          android:gravity="center"
+          android:orientation="horizontal">
+          <Button
+
+              android:layout_width="@dimen/_130sdp"
+              android:id="@+id/buttonDocTruyen"
+              android:layout_height="wrap_content"
+
+              android:background="@drawable/back_ground_button"
+              android:layout_gravity="center"
+              android:textColor="@color/black"
+              android:text="Đọc Truyện"
+              />
+
+      </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/white"
+            android:layout_marginTop="@dimen/_20sdp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:text="Thể Loại:"
+            android:textSize="@dimen/_17sdp"
+            />
+
+        <TextView
+            android:id="@+id/textviewTheLoai"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_15sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:text="fsdfsdfsd "
+
+            android:textSize="@dimen/_13sdp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:text="Giới Thiệu:"
+
+            android:textSize="@dimen/_17sdp"
+            />
+
+        <TextView
+            android:id="@+id/textviewNoiDungTruyen"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_15sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:text="fsdfsdfsd fhsdjfh kfsdjfhs kdsa đá
+dhsfjhsdf dfsd lfsd fj ;lg fgd . fsdlkfjsdfj ldsfksodf lkdfsdjf ldfksdjf
+  ;dkfl sd;l dsfklsdf s fhsdf dsfsdi fsdif hflihds fjsdhf dsfbd sfsdfsdm,
+  fns dsjefh sdf  hfjsdk fsd., s df  lkdsfsdjf dhf s jdf  sdfb s
+ sdfksd
+fjsdof  d;fksdlf  dfsj f"
+
+            android:layout_marginBottom="@dimen/_80sdp"
+            android:textSize="@dimen/_13sdp"
+            />
+
+
+    </LinearLayout>
+</ScrollView>
